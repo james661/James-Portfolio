@@ -11,4 +11,12 @@ nav {
   align-items: center;
 }
 
+#navlinks {
+  display: flex;
+  justify-content: space-between;
+}
+
+#navlinks li {
+  list-style-type: none;
+}
 /* @media (max-width: ) */

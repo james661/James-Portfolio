@@ -2,7 +2,7 @@
 import './App.css';
 // import Project from './components/Project/Project';
 import Header from './components/Header/Header';
-import Footer from './components/Footer';
+import Footer from './components/Footer/Footer';
 import { Outlet } from "react-router-dom";
 
 export default function App() {

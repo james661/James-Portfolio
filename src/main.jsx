@@ -1,10 +1,11 @@
 
 import ReactDOM from 'react-dom/client';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx';
 import './index.css';
-// import About from '****';
-// import Contact from '***';
-// import Portfolio from '***';
+import About from './components/About/About.jsx';
+import Contact from './components/Contact/Contact.jsx';
+import Portfolio from './components/Portfolio/Portfolio.jsx';
 
 const router = createBrowserRouter([
     {
@@ -31,6 +32,6 @@ const router = createBrowserRouter([
     },
 ]);
 
-// ReactDOM.createRoot(document.getElementById('root')).render(
-//     <React>
-// );
+ReactDOM.createRoot(document.getElementById('root')).render(
+    <RouterProvider router={router} />
+);

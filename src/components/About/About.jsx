@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import images from "../images/Avatar.png";
 
 export default function About() {
