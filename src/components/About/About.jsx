@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import images from "../images/Avatar.png";
+import "../About/About.css";
 
 export default function About() {
   return (
