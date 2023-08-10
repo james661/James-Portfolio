@@ -1,0 +1,14 @@
+header {
+  border-bottom: 0.5rem solid;
+}
+
+nav {
+  justify-content: space-between;
+  flex-direction: row;
+}
+.navlinks {
+  display: flex;
+  align-items: center;
+}
+
+/* @media (max-width: ) */
